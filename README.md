@@ -22,7 +22,8 @@ addon-store may be safe to use, often are not safe,
 but it is very difficult for an average user to test this
 and new browser extension vulnerabilities are being 
 uncovered continually, e.g. see:
-https://twit.tv/shows/security-now/episodes/938
+
+https://twit.tv/shows/security-now/episodes/938 
 
 This extensions background.js file should be simple, only five lines of code, the main line being:
 ```
