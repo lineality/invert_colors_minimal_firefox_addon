@@ -10,14 +10,21 @@
 
 ## Description
 With security, transparency, and data-hygiene in mind: 
-This is a minimal firefox addon to invert colors in a browser tab
+This is a minimal firefox addon/extension
+- 12 lines of code (not counting lone parenthesis and punctuation)
+- in two files
+
+to invert colors in a browser tab/window
 (e.g. to reduce eye-strain by turning inscrutably white pages black)
 that you can manually deploy in your browser, so that you know
 exactly what code you are running. Black-Box addons in the 
-addon-store may be safe to use, but it is very difficult for an average
-user to test this.
+addon-store may be safe to use, often are not safe, 
+but it is very difficult for an average user to test this
+and new browser extension vulnerabilities are being 
+uncovered continually, e.g. see:
+https://twit.tv/shows/security-now/episodes/938
 
-The background.js should be simple, only five lines of code, the main line being:
+This extensions background.js file should be simple, only five lines of code, the main line being:
 ```
     code: `document.body.style.filter === "invert(100%)" ? document.body.style.filter = "" : document.body.style.filter = "invert(100%)"`
 ```
