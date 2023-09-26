@@ -40,10 +40,26 @@ See 'settings' section below, as the icon may not automatically appear.
 
 # Settings
 You may need to go to about:addons
+- Run in Private Windows
+- Run on sites with restrictions
+
 or click on the puzzle piece icon and click on Manage Extensions, 
-select Dark Mode Invert Colors, and 'allow' 
+select Dark Mode Invert Colors, and 'allow.' 
+
+For example, I have firefox running in fully-locked-down amnesiac mode with nothing saved etc., which I think firefox treats as effectively (or techically) allways in private-window mode.
+So 'private windows' may refer to your configuration settings for all tabs, rather than specifically selecting 'new private window.'
+
+However, do not do anything you feel insecure doing. My ultimate recommendation 
+is that you write your own extension (perhaps from help with this code) that fits 
+exactly your security needs, doing only what you need done well and in a way you entirely understand.
+
+There are various design tradeoffs that you can and should select from, and modify what you want:
+- simple invert color or some other color shift (maybe a least-worst option but fits most cases well and is simple)
+- pop-ups or no popups  (I prefer to not use any popups so no popups are used here)
+- permissions (this has various meanings. 'active tab' permission is used, but that seems to be a different meaning from 'no permissions requested' as firefox says.
+- selective page/tab vs. all (see below)
+- toggle or always on (For selective tab and always on, you can make a version with absolute zero "permissions" techically, but that applies itself to all url's and tabs and sites with no choice, which is a sense is another kind of 'permission' as you have no choice to turn it on or off. I chose not to do that, even though in some ways it is simpler (fewer lines of simpler code, easier to understand) an uses fewer 'permissions.' 
 
 # For a similar chrome browser extension, see here:
-
 https://github.com/lineality/invert_colors_minimal_chrome_extension
 
