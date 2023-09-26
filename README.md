@@ -24,10 +24,10 @@ and new browser extension vulnerabilities are being
 uncovered continually, e.g. see:
 
 https://twit.tv/shows/security-now/episodes/938 
-Quote:
-```
+
+#### Quote:
 "Research reveals vulnerabilities in browser extensions that allow them to steal plaintext passwords from a website's HTML source code. Even sites like Google, Facebook, Amazon, IRS, and Capital One are affected."
-```
+
 
 This extensions background.js file should be simple, only five lines of code, the main line being:
 ```
