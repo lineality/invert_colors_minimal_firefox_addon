@@ -1,0 +1,1 @@
+# invert_colors_minimal_firefox_addon
