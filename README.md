@@ -49,6 +49,7 @@ select Dark Mode Invert Colors, and 'allow.'
 For example, I have firefox running in fully-locked-down amnesiac mode with nothing saved etc., which I think firefox treats as effectively (or techically) allways in private-window mode.
 So 'private windows' may refer to your configuration settings for all tabs, rather than specifically selecting 'new private window.'
 
+# Choice and Design
 However, do not do anything you feel insecure doing. My ultimate recommendation 
 is that you write your own extension (perhaps from help with this code) that fits 
 exactly your security needs, doing only what you need done well and in a way you entirely understand.
