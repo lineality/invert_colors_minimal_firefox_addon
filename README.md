@@ -19,7 +19,10 @@ The background.js should be simple, only five lines of code, the main line being
     code: `document.body.style.filter === "invert(100%)" ? document.body.style.filter = "" : document.body.style.filter = "invert(100%)"`
 ```
 
-This requires the active tab permission: "permissions": ["activeTab"]. If the version you have tries to get more
+This requires the active tab permission: "permissions": ["activeTab"]. 
+This allows the color inversion to be toggled on or off, and not be
+permanently on for all tabs for all urls, and uses no popups. 
+If the version you have tries to get more
 permissions, please stop and figure out what is going on.
 You can make your own clean version to use from the github code provided.
 
@@ -32,12 +35,12 @@ See 'settings' section below, as the icon may not automatically appear.
 
 (You can later package this addon into a .zip file and upload it to the Firefox Add-ons Developer Hub for distribution.)
 
-#: settings
+# Settings
 You may need to go to about:addons
 or click on the puzzle piece icon and click on Manage Extensions, 
 select Dark Mode Invert Colors, and 'allow' 
 
-## For a similar chrome browser extension, see here:
+# For a similar chrome browser extension, see here:
 
 https://github.com/lineality/invert_colors_minimal_chrome_extension
 
