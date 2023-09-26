@@ -1,7 +1,10 @@
 ### invert_colors_minimal_firefox_addon
-code here: https://github.com/lineality/invert_colors_minimal_firefox_addon
 
-## Dark Mode: eye-saving invert colors minimal firefox browser addon
+#### code here: https://github.com/lineality/invert_colors_minimal_firefox_addon
+
+#### extension/add-on here: https://addons.mozilla.org/en-US/firefox/addon/dark-mode-invert-colors/
+
+# Dark Mode: eye-saving invert colors minimal firefox browser addon
 
 # About Invert Colors Minimal
 
